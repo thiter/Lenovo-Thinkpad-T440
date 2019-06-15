@@ -6,10 +6,21 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		DFD02D7E22B5B32B0069F00F /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		DFD02D7F22B5B32B0069F00F /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
+		DFD02D8022B5B32B0069F00F /* hotpatch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hotpatch; sourceTree = "<group>"; };
+		DFD02D8122B5B51F0069F00F /* SSDT-T440.aml */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SSDT-T440.aml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		DFD02D7722B5B2ED0069F00F = {
 			isa = PBXGroup;
 			children = (
+				DFD02D8122B5B51F0069F00F /* SSDT-T440.aml */,
+				DFD02D7F22B5B32B0069F00F /* Audio */,
+				DFD02D7E22B5B32B0069F00F /* config.plist */,
+				DFD02D8022B5B32B0069F00F /* hotpatch */,
 			);
 			sourceTree = "<group>";
 		};
